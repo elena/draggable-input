@@ -1,3 +1,6 @@
-dragula(
-  [document.querySelector('#left'), document.querySelector('#right')],
-);
+dragula([
+document.querySelector('#one'),
+document.querySelector('#two'),
+document.querySelector('#tre')
+]);
+
