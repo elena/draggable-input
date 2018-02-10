@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 
-#right {
+.right { 
     max-height: 84px;
 }
 
