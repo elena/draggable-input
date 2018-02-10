@@ -13,9 +13,6 @@
   box-sizing: border-box;
 }
 
-.right { 
-    max-height: 84px;
-}
 
 .container div {
   padding: 10px 15px;
@@ -34,4 +31,8 @@
   cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
+}
+
+input {
+    width: 20px;
 }
