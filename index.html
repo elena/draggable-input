@@ -7,22 +7,27 @@
 <body>
 
   <div class="" style="padding: 40px;">
-    <div class="col">
+  <table>
+    <tr>
+      <td valign="top">
       <div class="container" id="one">
-        <div>One</div>
-        <div>Two</div>
-        <div>Three</div>
-        <div>Four</div>
-        <div>Five</div>
-        <div>Six</div>
-        <div>Seven</div>
+        <div data-child-id="200"><input value="0" readonly> | One</div>
+        <div data-child-id="201"><input value="1" readonly> | Two</div>
+        <div data-child-id="202"><input value="2" readonly> | Three</div>
+        <div data-child-id="203"><input value="3" readonly> | Four</div>
+        <div data-child-id="204"><input value="4" readonly> | Five</div>
+        <div data-child-id="205"><input value="5" readonly> | Six</div>
+        <div data-child-id="206"><input value="6" readonly> | Seven</div>
       </div>
-    </div>
-    <div class="col">
-      <div class="container right" id="two"></div>
-      <div class="container right" id="tre"></div>
-      <div class="container right" id="for"></div>
-    </div>      
+      </td>
+      <td valign="top">
+        <div class="container" data-rel-id="new:0" data-child-id="" data-parent-id="100"></div><br>
+        <div class="container" data-rel-id="new:1" data-child-id="" data-parent-id="101"></div><br>
+        <div class="container" data-rel-id="new:2" data-child-id="" data-parent-id="102"></div><br>
+        <div class="container" data-rel-id="123" data-child-id="" data-parent-id="103"></div><br>
+      </td>
+    </tr>
+  </table>
   </div>
 </body>
 
