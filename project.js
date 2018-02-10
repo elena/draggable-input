@@ -1,8 +1,9 @@
 $(document).ready(function(){
   dragula([
     $('#one')[0],
-    document.querySelector('#two'),
-    document.querySelector('#tre')
+    $('#two')[0],
+    $('#tre')[0],
+    $('#for')[0] 
   ])
 });
   
